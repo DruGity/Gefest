@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="xx-engine" notifyRemoteChanges="true">
+    <serverData>
+      <paths name="xx-engine">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/xx.org.ua/new/application" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/xx.org.ua/new/application/cache" />
+            <excludedPath path="/xx.org.ua/new/application/core" />
+            <excludedPath path="/xx.org.ua/new/application/hooks" />
+            <excludedPath path="/xx.org.ua/new/application/logs" />
+            <excludedPath path="/xx.org.ua/new/application/sparks" />
+            <excludedPath path="/xx.org.ua/new/application/thumbs" />
+            <excludedPath path="/xx.org.ua/new/application/vendor" />
+            <excludedPath path="/xx.org.ua/new/application/views/analitik" />
+            <excludedPath path="/xx.org.ua/new/application/views/anton" />
+            <excludedPath path="/xx.org.ua/new/application/views/antonina" />
+            <excludedPath path="/xx.org.ua/new/application/views/arimart" />
+            <excludedPath path="/xx.org.ua/new/application/views/bespredel" />
+            <excludedPath path="/xx.org.ua/new/application/views/bezcenzury" />
+            <excludedPath path="/xx.org.ua/new/application/views/bp" />
+            <excludedPath path="/xx.org.ua/new/application/views/budni" />
+            <excludedPath path="/xx.org.ua/new/application/views/building" />
+            <excludedPath path="/xx.org.ua/new/application/views/ci3" />
+            <excludedPath path="/xx.org.ua/new/application/views/comments" />
+            <excludedPath path="/xx.org.ua/new/application/views/estkontakt" />
+            <excludedPath path="/xx.org.ua/new/application/views/expertiza" />
+            <excludedPath path="/xx.org.ua/new/application/views/facecontrol" />
+            <excludedPath path="/xx.org.ua/new/application/views/fix" />
+            <excludedPath path="/xx.org.ua/new/application/views/foto" />
+            <excludedPath path="/xx.org.ua/new/application/views/inschool" />
+            <excludedPath path="/xx.org.ua/new/application/views/kuda" />
+            <excludedPath path="/xx.org.ua/new/application/views/kuda1" />
+            <excludedPath path="/xx.org.ua/new/application/views/mango" />
+            <excludedPath path="/xx.org.ua/new/application/views/marmars" />
+            <excludedPath path="/xx.org.ua/new/application/views/mayaki" />
+            <excludedPath path="/xx.org.ua/new/application/views/mediaexpert" />
+            <excludedPath path="/xx.org.ua/new/application/views/mercury" />
+            <excludedPath path="/xx.org.ua/new/application/views/naprolom" />
+            <excludedPath path="/xx.org.ua/new/application/views/raduzhniy" />
+            <excludedPath path="/xx.org.ua/new/application/views/reputation" />
+            <excludedPath path="/xx.org.ua/new/application/views/sammit" />
+            <excludedPath path="/xx.org.ua/new/application/views/santorini" />
+            <excludedPath path="/xx.org.ua/new/application/views/sovest" />
+            <excludedPath path="/xx.org.ua/new/application/views/speaker" />
+            <excludedPath path="/xx.org.ua/new/application/views/tachka" />
+            <excludedPath path="/xx.org.ua/new/application/views/strijdesign" />
+            <excludedPath path="/xx.org.ua/new/application/views/webzakon" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cache" />
+            <excludedPath local="true" path="$PROJECT_DIR$/core" />
+            <excludedPath local="true" path="$PROJECT_DIR$/hooks" />
+            <excludedPath local="true" path="$PROJECT_DIR$/logs" />
+            <excludedPath local="true" path="$PROJECT_DIR$/sparks" />
+            <excludedPath local="true" path="$PROJECT_DIR$/thumbs" />
+            <excludedPath local="true" path="$PROJECT_DIR$/vendor" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/analitik" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/anton" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/antonina" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/arimart" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/bespredel" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/bezcenzury" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/bp" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/budni" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/building" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/ci3" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/comments" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/estkontakt" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/expertiza" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/facecontrol" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/fix" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/foto" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/inschool" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/kuda" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/kuda1" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/mango" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/marmars" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/mayaki" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/mediaexpert" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/mercury" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/naprolom" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/raduzhniy" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/reputation" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/sammit" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/santorini" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/sovest" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/speaker" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/tachka" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/strijdesign" />
+            <excludedPath local="true" path="$PROJECT_DIR$/views/webzakon" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>
