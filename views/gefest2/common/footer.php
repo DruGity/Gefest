@@ -10,19 +10,19 @@
       <div class="col logo">
         <!-- logo -->
         <div class="logo-company">
-          <a href="/"><img src="/assets/img/logo.png" alt=""></a>
+          <a href="/"><img src="<?=getOption('logo')?>" alt=""></a>
         </div>
         <!-- logo -->
       </div>
       <ul class="col menu">
-        <li><a href="#" class="link">Объекты</a></li>
-        <li><a href="#" class="link">Рассрочка</a></li>
-        <li><a href="#" class="link">Контакты</a></li>
+        <li><a href="/obyekti/" class="link">Объекты</a></li>
+        <li><a href="/rassrochka/" class="link">Рассрочка</a></li>
+        <li><a href="/kontakty/" class="link">Контакты</a></li>
       </ul>
       <ul class="col contacts">
-        <li><a class="itm-phone -state" href="tel:0487035355">(048) 703-53-55</a></li>
-        <li><a class="itm-phone -kyivstar" href="tel:0681215355">(068) 121-53-55</a></li>
-        <li><a class="itm-phone -vodafone" href="tel:0951916555">(095) 191-65-55</a></li>
+        <li><a class="itm-phone -state" href="tel:0487035355"><?=getOption('nomer-telefona-1')?></a></li>
+        <li><a class="itm-phone -kyivstar" href="tel:0681215355"><?=getOption('nomer-telefona-2')?></a></li>
+        <li><a class="itm-phone -vodafone" href="tel:0951916555"><?=getOption('nomer-telefona-3')?></a></li>
       </ul>
       <div class="col fabrika-logo">
         <a href="#" class="title">Сайт разработан:</a>
@@ -32,7 +32,7 @@
       </div>
     </div>
     <div class="copyright-block">
-      <p class="title">© Gefest.Group, 2018</p>
+      <p class="title">© <a href="/"><?=$_SERVER['HTTP_HOST']?></a>, <?=date('Y')?></p>
     </div>
   </footer>
   <!-- footer -->

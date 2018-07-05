@@ -20,17 +20,14 @@
         <div class="simple-list phones">
           <h5 class="title">Наши телефоны:</h5>
           <ul class="list">
-            <li class="itm"><a href="tel:0487035355">(048) 703-53-55</a></li>
-            <li class="itm"><a href="tel:0681215355">(068) 121-53-55</a></li>
-            <li class="itm"><a href="tel:0951916555">(095) 191-65-55</a></li>
+            <li class="itm"><a href="tel:0487035355"><?=getOption('nomer-telefona-1')?></a></li>
+            <li class="itm"><a href="tel:0681215355"><?=getOption('nomer-telefona-2')?></a></li>
+            <li class="itm"><a href="tel:0951916555"><?=getOption('nomer-telefona-3')?></a></li>
           </ul>
         </div>
         <h4 class="title-paragraph">Приходите к нам:</h4>
         <div class="simple-list">
-          <h5 class="title">Над адрес:</h5>
-          <ul class="list">
-            <li class="itm">г.Одесса, ул. Деребасовская, 1</li>
-          </ul>
+          <?=$page['content']?>
         </div>
       </div>
       <div class="col form">
@@ -58,7 +55,7 @@
             </div>
           </div>
           <!-- submit -->
-          <div class="field-block col">
+          <div class="field-block">
             <div class="submit-block field">
               <input type="submit" class="submit btn -red">
             </div>

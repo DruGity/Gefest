@@ -2,795 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db6860f-3476-42a9-b455-53753b945dd9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gefest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cisimplepie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/doctypes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/foreign_chars.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hooks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/migration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mimes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/profiler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/smileys.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/user_agents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Ajax.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Blog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Ckupload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Cron.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Filters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Forum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Gallery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Interactive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Language.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Mailer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Migration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/PHPExcel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Rss.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Shop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Sitemap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Ajax.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Articles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Banners.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Blogs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Brands.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Currency.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Filters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Forum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Gallery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Images.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Interactive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Languages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Mailer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Menus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Options.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Orders.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Pages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Parsers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Quest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Schedule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Shop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Subscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Translations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/admin/Users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/admin_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/analitik_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/anton_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/arimart_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/autobus_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/bespredel_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/bezcenzury_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/bp_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/breadcrumbs_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/budni_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/cache_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/captcha_img_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/categories_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/comments_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/date_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/errors_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/estkontakt_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/expertiza_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/export_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/facecontrol_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/filter_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/forms_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/images_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/inschool_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/kuda1_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/kuda_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/language_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/login_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/logs_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/mail_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/mayaki_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/mediaexpert_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/meerland_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/menu_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/mercury_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/modules_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/naprolom_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/other_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/paginator_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/parser_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/pop-up_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/preloader_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/raduzhniy_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/redirects_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/reputation_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/ro_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/shop_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/shortnames_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/sovest_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/sstring_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/tags_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/themestoday_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/translit_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/update_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/webzakon_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/xml_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/en/anton_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/en/client_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/en/klubniy_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/en/mango_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/en/sammit_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/en/speaker_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/ru/client_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/ru/klubniy_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/ru/mango_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/ru/sammit_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/ru/speaker_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/ua/client_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/ua/comments_lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/Cisimplepie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/Csvimport.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/Csvreader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/Excel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/Googlemaps.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/Jsmin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/Liqpay.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/Partialcache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/Rssparser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/Translate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/Uauth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/Ulogin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/001_create_table_articles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_adresses.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_afisha.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_articles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_banners.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_blogs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_brands.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_cities.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_currency.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_fieldtypes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_filters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_forum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_gallery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_images.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_interactive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_languages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_likes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_mailer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_map.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_menus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_modules.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_options.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_pages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_productmarks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_quest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_redirects.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_schedule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_shop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_spambot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Model_wishlist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/_model_articles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/ImageResize.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Autoloader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorage/APC.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorage/CacheBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorage/DiscISAM.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorage/ICache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorage/Igbinary.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorage/Memcache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorage/Memory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorage/MemoryGZip.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorage/MemorySerialized.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorage/PHPTemp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorage/SQLite.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorage/SQLite3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorage/Wincache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CachedObjectStorageFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CalcEngine/CyclicReferenceStack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/CalcEngine/Logger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/DateTime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/Engineering.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/ExceptionHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/Financial.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/FormulaParser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/FormulaToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/Function.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/Functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/Logical.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/LookupRef.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/MathTrig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/Statistical.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/TextData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/Token/Stack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Calculation/functionlist.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Cell.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Cell/AdvancedValueBinder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Cell/DataType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Cell/DataValidation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Cell/DefaultValueBinder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Cell/Hyperlink.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Cell/IValueBinder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Chart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Chart/DataSeries.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Chart/DataSeriesValues.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Chart/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Chart/Layout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Chart/Legend.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Chart/PlotArea.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Chart/Renderer/jpgraph.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Chart/Title.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/DocumentProperties.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/DocumentSecurity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/HashTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/IComparable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/IOFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/NamedRange.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/Abstract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/CSV.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/DefaultReadFilter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/Excel2003XML.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/Excel2007.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/Excel2007/Chart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/Excel2007/Theme.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/Excel5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/Excel5/Escher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/Excel5/MD5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/Excel5/RC4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/Gnumeric.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/HTML.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/IReadFilter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/IReader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/OOCalc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Reader/SYLK.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/ReferenceHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/RichText.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/RichText/ITextElement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/RichText/Run.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/RichText/TextElement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Settings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/CodePage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/Date.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/Drawing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/Escher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/Escher/DgContainer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/Escher/DggContainer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/Excel5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/Font.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/JAMA/CHANGELOG.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/JAMA/CholeskyDecomposition.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/JAMA/LUDecomposition.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/JAMA/Matrix.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/JAMA/QRDecomposition.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/JAMA/SingularValueDecomposition.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/JAMA/utils/Error.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/JAMA/utils/Maths.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/OLE.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/OLE/ChainedBlockStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/OLE/PPS.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/OLE/PPS/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/OLE/PPS/Root.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/OLERead.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/PCLZip/pclzip.lib.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/PCLZip/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/PasswordHasher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/String.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/TimeZone.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/XMLWriter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/ZipArchive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/ZipStreamWrapper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/trend/bestFitClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/trend/exponentialBestFitClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/trend/linearBestFitClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/trend/logarithmicBestFitClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/trend/polynomialBestFitClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/trend/powerBestFitClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Shared/trend/trendClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Style.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Style/Alignment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Style/Border.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Style/Borders.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Style/Color.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Style/Conditional.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Style/Fill.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Style/Font.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Style/NumberFormat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Style/Protection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Style/Supervisor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/AutoFilter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/AutoFilter/Column.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/AutoFilter/Column/Rule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/BaseDrawing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/CellIterator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/ColumnDimension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/Drawing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/Drawing/Shadow.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/HeaderFooter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/HeaderFooterDrawing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/MemoryDrawing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/PageMargins.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/PageSetup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/Protection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/Row.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/RowDimension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/RowIterator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Worksheet/SheetView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/WorksheetIterator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Abstract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/CSV.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/Chart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/Comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/ContentTypes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/DocProps.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/Drawing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/Rels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/RelsRibbon.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/RelsVBA.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/StringTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/Style.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/Theme.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/Workbook.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/Worksheet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel2007/WriterPart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel5/BIFFwriter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel5/Escher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel5/Font.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel5/Parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel5/Workbook.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel5/Worksheet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Excel5/Xf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/HTML.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/IWriter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/PDF.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/PDF/Core.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/PDF/DomPDF.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/PDF/mPDF.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/Writer/PDF/tcPDF.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/bg/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/cs/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/cs/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/da/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/da/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/de/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/de/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/en/uk/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/es/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/es/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/fi/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/fi/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/fr/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/fr/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/hu/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/hu/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/it/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/it/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/nl/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/nl/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/no/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/no/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/pl/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/pl/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/pt/br/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/pt/br/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/pt/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/pt/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/ru/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/ru/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/sv/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/sv/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/tr/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPExcel/locale/tr/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/PHPStorm_CI_CC.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/ResizeImage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Author.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Cache/Base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Cache/DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Cache/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Cache/Memcache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Cache/Memcached.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Cache/MySQL.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Cache/Redis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Caption.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Content/Type/Sniffer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Copyright.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Core.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Credit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Decode/HTML/Entities.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Enclosure.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/HTTP/Parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/IRI.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Item.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Locator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Misc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Net/IPv6.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Parse/Date.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Rating.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Registry.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Restriction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Sanitize.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/Source.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/XML/Declaration/Parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/SimplePie/gzdecode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_party/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/articles/adding-images.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/articles/adress_edit.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/articles/adresses.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/articles/article_add_edit.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/articles/articles.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/articles/backup.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/articles/draganddrop.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/articles/import.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/articles/importnew.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/articles/menu.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/banners/banners.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/banners/banners_add_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/banners/menu.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/blogs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/blogs_blog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/blogs_content_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/blogs_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/blogs_invitation_codes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/blogs_options.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/blogs_options_add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/blogs_options_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/brands.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/brands_add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/cache/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/categories/adding-images.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/categories/categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/categories/categories_add_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/categories/menu.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/categories/multilanguage.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/categories/partical.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/client/frontend_admin_panel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/comments/comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/common/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/common/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/common/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/common/left_sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/common/partical.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/common/settings.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/currency.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/currency_add_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/errors/cli/error_404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/errors/cli/error_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/errors/cli/error_exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/errors/cli/error_general.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/errors/cli/error_php.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/errors/cli/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/errors/html/error_404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/errors/html/error_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/errors/html/error_exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/errors/html/error_general.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/errors/html/error_php.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/errors/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/errors/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/filters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/filters_langs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/forum/messages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/forum/messages_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/forum/options.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/forum/options_add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/forum/options_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/forum/sections.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/forum/sections_add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/forum/sections_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/forum/topics.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/forum/topics_add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/forum/topics_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/gallery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/gallery_categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/gallery_categories_add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/gallery_categories_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/gallery_foto_add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/gallery_foto_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/gallery_options.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/gallery_options_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/gallery_zip_import.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/images/images.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/import_csv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/interactive/opinion_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/interactive/opinions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/interactive/question_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/interactive/questions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/languages/add_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/languages/languages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/languages/menu.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/login_soc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/mailer/add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/mailer/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/mailer/mailer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/mailer/send.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/main/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/main/main_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/main/modules/todo_list.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/menus/menu.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/menus/menu_create_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/menus/menus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/menus/menus_add_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/my_test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/options/menu.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/options/options.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/options/options_add_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/orders.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/orders_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/pages/menu.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/pages/multilanguage.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/pages/pages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/pages/pages_add_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/parsers/menu.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/parsers/parsers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/parsers/parsers_add_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/products/adding-images.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/products/images_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/products/menu.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/products/product_add_edit.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/products/products.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/quest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/quest_add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/quest_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/slider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/subscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/tags/tags.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/tp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/translations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/update/backup.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/update/clear.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/update/create.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/update/update.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/users/users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/users/users_add_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/cli/error_404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/cli/error_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/cli/error_exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/cli/error_general.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/cli/error_php.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/cli/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/html/error_404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/html/error_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/html/error_exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/html/error_general.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/html/error_php.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/add/article.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/ajax/setka.ajax.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/css/colors/brown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/css/colors/gold.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/css/colors/gray.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/css/colors/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/css/colors/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/css/colors/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/css/colors/skyblue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/css/colors/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/css/lightcase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/css/preview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/FontAwesome.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/FontAwesome.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/FontAwesome.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/FontAwesome.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/FontAwesome.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/lightcase.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/lightcase.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/lightcase.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/lightcase.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/themify-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/themify.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/themify.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/themify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/fonts/themify.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/img/gridtile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/img/imac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/img/layout-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/img/layout-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/img/layout-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/img/map-marker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/img/parallax-bg-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/appear.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/counterup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/easing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/google-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/imagesloaded.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/isotope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/lib/jquery-2.2.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/lightcase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/modernizr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/parallax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/particles-setting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/particles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/progressbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/typed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/assets/js/waypoints.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/blocks/list-of-blocks.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/blocks/list-of-news.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/blocks/right.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/blocks/team.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/blocks/uslugi-blocks.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/blog/add_blog_content.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/blog/blog.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/blog/blogContent.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/blog/createBlog.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/blog/edit_blog_content.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/blog/main.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/common/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/common/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/common/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/common/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/common/scripts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/common/styles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/errors/cli/error_404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/errors/cli/error_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/errors/cli/error_exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/errors/cli/error_general.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/errors/cli/error_php.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/errors/cli/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/errors/html/error_404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/errors/html/error_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/errors/html/error_exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/errors/html/error_general.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/errors/html/error_php.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/errors/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/errors/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/forum/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/forum/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/forum/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/forum/main.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/gallery/add.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/gallery/category.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/gallery/comments.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/gallery/image.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/gallery/main.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/mod/breadcrumbs.mod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/mod/comments.mod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/mod/filter.mod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/mod/lastitems.mod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/mod/mycart_table.mod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/mod/opinions.mod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/mod/pre_footer.mod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/mod/sidebar_left.mod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/mod/top_filter.mod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/payments/interkassa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/payments/liqpay.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/payments/status.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/products/catalog-single.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/products/liqpay.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/products/liqpay_wait_accept.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/products/my_cart.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/products/not_payed.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/products/object.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/products/order.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/products/payed.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/products/privat.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/products/sended.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/redirect.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/redirects.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/register/forgot.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/register/fotoUpload.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/register/register.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/register/set_password.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/register/step2.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/rss/afisha.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/rss/rss.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/rss/ukrnetrss.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/search/form.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/search/google_search.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/search/search.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/sitemap/sitemap_category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/sitemap/sitemap_gallery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/sitemap/sitemap_main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/sitemap/sitemap_xml.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/templates/articles/gallery-single.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/templates/articles/news-single.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/templates/categories/articles/galery.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/templates/categories/articles/news.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/templates/categories/products/catalog.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/templates/categories/products/objects.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/templates/pages/contacts.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/templates/pages/menu.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/templates/pages/rassrochka.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/templates/products/catalog-single.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/templates/tags/tag.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/users/add-adress.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/users/add_organization.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/users/adresses.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/users/buy_type.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/users/edit_organization.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/users/login.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/users/menu.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/users/my_organizations.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/users/mypage.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/users/mypage_edit.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/users/payment.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/users/set_type.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/gefest2/users/users.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/gefest2/common/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/common/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/gefest2/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/common/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/gefest2/common/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/common/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/gefest2/common/scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/common/scripts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/gefest2/common/styles.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/common/styles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/gefest2/products/object.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/products/object.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/gefest2/templates/categories/products/objects.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/templates/categories/products/objects.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/gefest2/templates/pages/contacts.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/templates/pages/contacts.tpl.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -799,8 +19,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getProductsByCate</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/views/gefest2/common/main.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -811,9 +46,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="958" />
+    <option name="y" value="-13" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -834,6 +69,11 @@
             <path>
               <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
               <item name="gefest" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gefest" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -841,6 +81,54 @@
               <item name="gefest" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="gefest2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gefest" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="gefest2" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gefest" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="gefest2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gefest" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="gefest2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gefest" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="gefest2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gefest" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="gefest2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gefest" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="gefest2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -878,24 +166,27 @@
       <option name="presentableId" value="Default" />
       <updated>1530788432529</updated>
       <workItem from="1530788439901" duration="1095000" />
-      <workItem from="1530790232860" duration="354000" />
+      <workItem from="1530790232860" duration="771000" />
+      <workItem from="1530791455372" duration="3361000" />
+      <workItem from="1530797720376" duration="4040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1449000" />
+    <option name="totallyTimeSpent" value="9267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="1358" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5014641" side_tool="true" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021962" side_tool="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="7" visible="true" weight="0.110447764" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49853587" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4978038" weight="0.13968255" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21449487" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -907,7 +198,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="File Transfer" order="7" weight="0.4031746" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -916,5 +206,57 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/gefest2/common/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="121" selection-start-line="42" selection-start-column="108" selection-end-line="42" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/gefest2/common/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/gefest2/common/footer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Model_products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="262" column="30" selection-start-line="262" selection-start-column="13" selection-end-line="262" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/gefest2/common/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="172" column="4" selection-start-line="172" selection-start-column="4" selection-end-line="172" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/gefest2/templates/categories/products/objects.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/gefest2/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/gefest2/templates/articles/news-single.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -9,9 +9,9 @@ loadHelper(TEMPLATE);
     <header class="container header-main">
       <!-- list phone -->
       <div class="list-phone">
-        <a class="itm-phone -state" href="tel:0487035355">(048) 703-53-55</a>
-        <a class="itm-phone -kyivstar" href="tel:0681215355">(068) 121-53-55</a>
-        <a class="itm-phone -vodafone" href="tel:0951916555">(095) 191-65-55</a>
+        <a class="itm-phone -state" href="tel:0487035355"><?=getOption('nomer-telefona-1')?></a>
+        <a class="itm-phone -kyivstar" href="tel:0681215355"><?=getOption('nomer-telefona-2')?></a>
+        <a class="itm-phone -vodafone" href="tel:0951916555"><?=getOption('nomer-telefona-3')?></a>
       </div>
       <!-- list phone -->
       <!-- toggle mobile menu/menu -->
@@ -27,8 +27,8 @@ loadHelper(TEMPLATE);
         <i class="fa fa-times close js-close-menu" aria-hidden="true"></i>
         <ul>
           <li class="itm-menu itm -icon-1"><a href="/">Главная</a></li>
-          <li class="itm-menu itm -icon-2"><a href="#">Объекты</a></li>
-          <li class="itm-menu itm -icon-3"><a href="#">Рассрочка</a></li>
+          <li class="itm-menu itm -icon-2"><a href="/obyekti/">Объекты</a></li>
+          <li class="itm-menu itm -icon-3"><a href="/rassrochka/">Рассрочка</a></li>
           <li class="itm-menu itm -icon-4"><a href="/kontakty/">Контакты</a></li>
         </ul>
       </div>
@@ -36,14 +36,14 @@ loadHelper(TEMPLATE);
       <div class="dropdown-list phone">
         <i class="fa fa-times close js-close-menu" aria-hidden="true"></i>
         <div>
-          <a class="itm-phone itm -state" href="tel:0487035355">(048) 703-53-55</a>
-          <a class="itm-phone itm -kyivstar" href="tel:0681215355">(068) 121-53-55</a>
-          <a class="itm-phone itm -vodafone" href="tel:0951916555">(095) 191-65-55</a>
+          <a class="itm-phone itm -state" href="tel:0487035355"><?=getOption('nomer-telefona-1')?></a>
+          <a class="itm-phone itm -kyivstar" href="tel:0681215355"><?=getOption('nomer-telefona-2')?></a>
+          <a class="itm-phone itm -vodafone" href="tel:0951916555"><?=getOption('nomer-telefona-3')?></a>
         </div>
       </div>
       <!-- logo -->
       <div class="logo-company">
-        <a href="/"><img src="/assets/img/logo.png" alt=""></a>
+        <a href="/"><img src="<?=getOption('logo')?>" alt=""></a>
       </div>
       <!-- logo -->
     </header>
@@ -52,8 +52,8 @@ loadHelper(TEMPLATE);
     <div class="wrap-menu">
       <ul class="menu-main container">
         <li class="itm-menu col -icon-1"><a href="/">Главная</a></li>
-        <li class="itm-menu col -icon-2"><a href="#">Объекты</a></li>
-        <li class="itm-menu col -icon-3"><a href="#">Рассрочка</a></li>
+        <li class="itm-menu col -icon-2"><a href="/obyekti/">Объекты</a></li>
+        <li class="itm-menu col -icon-3"><a href="/rassrochka/">Рассрочка</a></li>
         <li class="itm-menu col -icon-4"><a href="/kontakty/">Контакты</a></li>
       </ul>
     </div>
