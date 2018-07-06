@@ -9,9 +9,9 @@ loadHelper(TEMPLATE);
     <header class="container header-main">
       <!-- list phone -->
       <div class="list-phone">
-        <a class="itm-phone -state" href="tel:0487035355"><?=getOption('nomer-telefona-1')?></a>
-        <a class="itm-phone -kyivstar" href="tel:0681215355"><?=getOption('nomer-telefona-2')?></a>
-        <a class="itm-phone -vodafone" href="tel:0951916555"><?=getOption('nomer-telefona-3')?></a>
+        <a class="itm-phone -state" href="tel:<?=getOption('nomer-telefona-1')?>"><?=getOption('nomer-telefona-1')?></a>
+        <a class="itm-phone -kyivstar" href="tel:<?=getOption('nomer-telefona-2')?>"><?=getOption('nomer-telefona-2')?></a>
+        <a class="itm-phone -vodafone" href="tel:<?=getOption('nomer-telefona-3')?>"><?=getOption('nomer-telefona-3')?></a>
       </div>
       <!-- list phone -->
       <!-- toggle mobile menu/menu -->
@@ -36,9 +36,9 @@ loadHelper(TEMPLATE);
       <div class="dropdown-list phone">
         <i class="fa fa-times close js-close-menu" aria-hidden="true"></i>
         <div>
-          <a class="itm-phone itm -state" href="tel:0487035355"><?=getOption('nomer-telefona-1')?></a>
-          <a class="itm-phone itm -kyivstar" href="tel:0681215355"><?=getOption('nomer-telefona-2')?></a>
-          <a class="itm-phone itm -vodafone" href="tel:0951916555"><?=getOption('nomer-telefona-3')?></a>
+          <a class="itm-phone itm -state" href="tel:<?=getOption('nomer-telefona-1')?>"><?=getOption('nomer-telefona-1')?></a>
+          <a class="itm-phone itm -kyivstar" href="tel:<?=getOption('nomer-telefona-2')?>"><?=getOption('nomer-telefona-2')?></a>
+          <a class="itm-phone itm -vodafone" href="tel:<?=getOption('nomer-telefona-3')?>"><?=getOption('nomer-telefona-3')?></a>
         </div>
       </div>
       <!-- logo -->
@@ -51,10 +51,10 @@ loadHelper(TEMPLATE);
     <!-- menu -->
     <div class="wrap-menu">
       <ul class="menu-main container">
-        <li class="itm-menu col -icon-1"><a href="/">Главная</a></li>
-        <li class="itm-menu col -icon-2"><a href="/obyekti/">Объекты</a></li>
-        <li class="itm-menu col -icon-3"><a href="/rassrochka/">Рассрочка</a></li>
-        <li class="itm-menu col -icon-4"><a href="/kontakty/">Контакты</a></li>
+        <li class="col itm"><a class="itm-menu -icon-1" href="/">Главная</a></li>
+        <li class="col itm"><a class="itm-menu -icon-2" href="/obyekti/">Объекты</a></li>
+        <li class="col itm"><a class="itm-menu -icon-3" href="/rassrochka/">Рассрочка</a></li>
+        <li class="col itm"><a class="itm-menu -icon-4" href="/kontakty/">Контакты</a></li>
       </ul>
     </div>
     <!-- menu -->

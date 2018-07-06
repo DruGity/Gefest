@@ -20,9 +20,9 @@
         <div class="simple-list phones">
           <h5 class="title">Наши телефоны:</h5>
           <ul class="list">
-            <li class="itm"><a href="tel:0487035355"><?=getOption('nomer-telefona-1')?></a></li>
-            <li class="itm"><a href="tel:0681215355"><?=getOption('nomer-telefona-2')?></a></li>
-            <li class="itm"><a href="tel:0951916555"><?=getOption('nomer-telefona-3')?></a></li>
+            <li class="itm"><a href="tel:<?=getOption('nomer-telefona-1')?>"><?=getOption('nomer-telefona-1')?></a></li>
+            <li class="itm"><a href="tel:<?=getOption('nomer-telefona-2')?>"><?=getOption('nomer-telefona-2')?></a></li>
+            <li class="itm"><a href="tel:<?=getOption('nomer-telefona-3')?>"><?=getOption('nomer-telefona-3')?></a></li>
           </ul>
         </div>
         <h4 class="title-paragraph">Приходите к нам:</h4>
@@ -57,7 +57,7 @@
           <!-- submit -->
           <div class="field-block">
             <div class="submit-block field">
-              <input type="submit" class="submit btn -red">
+              <input type="submit" class="submit btn -red" value="Отправить">
             </div>
           </div>
         </form>
@@ -65,8 +65,18 @@
     </div>
   </div>
   <div class="map-block">
-    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2747.2118209752507!2d30.73665621580886!3d46.48411797282915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c631981dfcbc61%3A0xee397e13e5dcd70!2z0YPQuy4g0JTQtdGA0LjQsdCw0YHQvtCy0YHQutCw0Y8sINCe0LTQtdGB0YHQsCwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1sru!2sua!4v1530782538994" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <?=getOption('iframe')?>
   </div>
 </section>
-
+<!-- .popups -->
+<div class="wrap-popup">
+  <div class="popup message-success message-simple">
+    <i class="fa fa-times js-close-popup close" aria-hidden="true"></i>
+    <div class="popup-text">
+      <p>Ваш запрос принят.</p>
+      <p>В ближайшее время мы с Вами свяжемся!</p>
+    </div>
+  </div>
+</div>
+<!-- .popups -->
 <?=getFooter()?>

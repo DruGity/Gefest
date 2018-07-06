@@ -604,7 +604,7 @@ function getImageForOg($name, $description, $saveToFile = true)
 
 // THUMBS:
 
-function CreateThumb($sizex, $sizey, $image, $folder)
+function CreateThumb($image, $sizex, $sizey, $folder = 'images')
 {
     myinclude(X_PATH . '/application/thumbs/ThumbLib.inc.php', false);
 

@@ -577,5 +577,15 @@ class Model_products extends CI_Model
         $this->db->order_by('unix', 'DESC');
         return $this->db->get('products')->result_array();
     }
-
+    function getRandomProducts($per_page = -1, $from = -1, $active = -1, $order_by = "DESC")
+    {
+        if ($active != -1)
+            $this->db->where('active', $active);
+        $this->db->order_by('num', $order_by);
+        if ($per_page != -1 && $from != -1)
+            $this->db->limit($per_page, $from);
+       $products = $this->db->get('products')->result_array();
+       shuffle($products);
+       return $products;
+    }
 }

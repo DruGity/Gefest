@@ -13,9 +13,9 @@ loadHelper(TEMPLATE);
   <!-- breadcrumbs -->
   <!-- banner -->
   <div class="banner-main container">
-    <img class="banner -desktop" src="/assets/img/banners/banner-0.jpg" alt="Июльские скидки">
-    <img class="banner -mobile" src="/assets/img/banners/banner-1.jpg" alt="Июльские скидки">
-    <a href="#" class="btn -red">Узнать подробнее</a>
+      <img class="banner -desktop" src="<?=getOption('banner-na-glavnoj')?>" alt="Июльские скидки">
+      <img class="banner -mobile" src="<?=getOption('banner-na-glavnoj-dlja-mobilnyh')?>" alt="Июльские скидки">
+      <a href="<?=getOption('ssylka-bannera')?>" class="btn -red">Узнать подробнее</a>
   </div>
   <!-- banner -->
 </div>

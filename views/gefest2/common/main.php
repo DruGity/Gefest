@@ -5,9 +5,9 @@ loadHelper(TEMPLATE);
 ?>
 <!-- banner -->
 <div class="banner-main container">
-  <img class="banner -desktop" src="<?=getOption('banner-na-glavnoj')?>" alt="Июльские скидки">
-  <img class="banner -mobile" src="<?=getOption('banner-na-glavnoj-dlja-mobilnyh')?>" alt="Июльские скидки">
-  <a href="#" class="btn -red">Узнать подробнее</a>
+    <img class="banner -desktop" src="<?=getOption('banner-na-glavnoj')?>" alt="Июльские скидки">
+    <img class="banner -mobile" src="<?=getOption('banner-na-glavnoj-dlja-mobilnyh')?>" alt="Июльские скидки">
+    <a href="<?=getOption('ssylka-bannera')?>" class="btn -red">Узнать подробнее</a>
 </div>
 <!-- banner -->
 <!-- form -->
@@ -172,7 +172,7 @@ loadHelper(TEMPLATE);
 <section class="about-block">
   <h3 class="title-main bg-decore">Объекты</h3>
   <div class="container">
-    <div class="content">
+    <div class="content simple-text">
         <?=getOption('tekst-na-glavnoj')?>
     </div>
   </div>

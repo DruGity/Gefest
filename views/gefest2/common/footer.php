@@ -20,9 +20,9 @@
         <li><a href="/kontakty/" class="link">Контакты</a></li>
       </ul>
       <ul class="col contacts">
-        <li><a class="itm-phone -state" href="tel:0487035355"><?=getOption('nomer-telefona-1')?></a></li>
-        <li><a class="itm-phone -kyivstar" href="tel:0681215355"><?=getOption('nomer-telefona-2')?></a></li>
-        <li><a class="itm-phone -vodafone" href="tel:0951916555"><?=getOption('nomer-telefona-3')?></a></li>
+        <li><a class="itm-phone -state" href="tel:<?=getOption('nomer-telefona-1')?>"><?=getOption('nomer-telefona-1')?></a></li>
+        <li><a class="itm-phone -kyivstar" href="tel:<?=getOption('nomer-telefona-2')?>"><?=getOption('nomer-telefona-2')?></a></li>
+        <li><a class="itm-phone -vodafone" href="tel:<?=getOption('nomer-telefona-3')?>"><?=getOption('nomer-telefona-3')?></a></li>
       </ul>
       <div class="col fabrika-logo">
         <a href="#" class="title">Сайт разработан:</a>

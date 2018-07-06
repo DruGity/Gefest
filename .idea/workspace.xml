@@ -3,14 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="6db6860f-3476-42a9-b455-53753b945dd9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/images_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/images_helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Model_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Model_products.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/gefest2/common/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/common/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/gefest2/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/common/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/gefest2/common/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/common/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/gefest2/common/scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/common/scripts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/gefest2/common/styles.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/common/styles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/gefest2/errors/html/error_404.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/errors/html/error_404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/gefest2/products/object.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/products/object.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/gefest2/templates/categories/products/objects.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/templates/categories/products/objects.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/gefest2/templates/pages/contacts.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/templates/pages/contacts.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/gefest2/templates/pages/rassrochka.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/gefest2/templates/pages/rassrochka.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +23,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="rassrochka.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/gefest2/templates/pages/rassrochka.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="objects.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/gefest2/templates/categories/products/objects.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="object.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/gefest2/products/object.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="175" column="26" lean-forward="true" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/gefest2/common/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="166" column="10" lean-forward="true" selection-start-line="166" selection-start-column="10" selection-end-line="166" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>getProductsByCate</find>
+      <find>createThumb</find>
+      <find>getRandi</find>
+      <find>--&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -33,7 +76,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/helpers/images_helper.php" />
+        <option value="$PROJECT_DIR$/models/Model_products.php" />
+        <option value="$PROJECT_DIR$/views/gefest2/products/object.tpl.php" />
         <option value="$PROJECT_DIR$/views/gefest2/common/main.php" />
+        <option value="$PROJECT_DIR$/views/gefest2/templates/pages/rassrochka.php" />
+        <option value="$PROJECT_DIR$/views/gefest2/templates/categories/products/objects.tpl.php" />
       </list>
     </option>
   </component>
@@ -46,9 +94,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="958" />
-    <option name="y" value="-13" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="57" />
+    <option name="y" value="-8" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -65,6 +113,11 @@
             <path>
               <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
               <item name="gefest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gefest" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
@@ -88,6 +141,13 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="gefest2" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gefest" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="gefest2" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
@@ -130,6 +190,22 @@
               <item name="categories" type="462c0819:PsiDirectoryNode" />
               <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gefest" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="gefest2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gefest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gefest" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="gefest2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -168,27 +244,30 @@
       <workItem from="1530788439901" duration="1095000" />
       <workItem from="1530790232860" duration="771000" />
       <workItem from="1530791455372" duration="3361000" />
-      <workItem from="1530797720376" duration="4040000" />
+      <workItem from="1530797720376" duration="4121000" />
+      <workItem from="1530875578121" duration="5675000" />
+      <workItem from="1530883739200" duration="622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9267000" />
+    <option name="totallyTimeSpent" value="15645000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021962" side_tool="true" weight="0.32857144" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="7" visible="true" weight="0.110447764" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5021962" side_tool="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="9" visible="true" weight="0.09060956" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4978038" weight="0.13968255" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4978038" weight="0.28748068" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21449487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -208,6 +287,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/gefest2/templates/pages/rassrochka.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/gefest2/common/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/gefest2/common/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -223,27 +316,6 @@
     <entry file="file://$PROJECT_DIR$/views/gefest2/common/footer.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/Model_products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="262" column="30" selection-start-line="262" selection-start-column="13" selection-end-line="262" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/gefest2/common/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="172" column="4" selection-start-line="172" selection-start-column="4" selection-end-line="172" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/gefest2/templates/categories/products/objects.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/gefest2/common/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -255,6 +327,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/gefest2/templates/products/catalog-single.tpl.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/images_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="610" column="39" lean-forward="true" selection-start-line="610" selection-start-column="39" selection-end-line="610" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Model_products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="587" column="7" selection-start-line="587" selection-start-column="7" selection-end-line="587" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Model_articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/gefest2/products/object.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="175" column="26" lean-forward="true" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/gefest2/common/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="166" column="10" lean-forward="true" selection-start-line="166" selection-start-column="10" selection-end-line="166" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/gefest2/templates/categories/products/objects.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/gefest2/templates/pages/rassrochka.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
